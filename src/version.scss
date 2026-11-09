@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.App_v_1_0 *,
+.MuiDialog-root *,
+.MuiDrawer-root * {
+  scrollbar-width: none;
+}
+.App_v_1_0 *::-webkit-scrollbar,
+.MuiDialog-root *::-webkit-scrollbar {
+  display: none;
+}
+.MuiDialog-root .MuiDialog-container {
+  align-items: center;
+  justify-content: center;
+}
+.MuiDialog-root .MuiDialog-paper {
+  position: relative;
+  margin: 24px;
+}

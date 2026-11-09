@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Wrapper from "./Carousel.style";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
-import ReactPlayer from "react-player";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 // import Tooltip from "@mui/material/Tooltip";
 // import Zoom from "@mui/material/Zoom";
@@ -17,7 +16,7 @@ export const CarouselModal = () => {
   // const [shibaPlay, setShibaPlay] = useState(false);
   // const [sortPlay, setSortPlay] = useState(false);
   // const [weChatPlay, setWeChatPlay] = useState(false);
-  const [netflixPlay, setNetflixPlay] = useState(false);
+  const netflixVideo = useRef(null);
   const [loader, setloader] = useState({
     shiba: true,
     netflix: true,
@@ -284,18 +283,21 @@ export const CarouselModal = () => {
                 ) : (
                   <></>
                 )}
-                <span
-                  onMouseEnter={() => setNetflixPlay(true)}
-                  onMouseLeave={() => setNetflixPlay(false)}
+                <div
+                  style={{ width: "100%", height: "90%", overflow: "hidden" }}
+                  onMouseEnter={() => netflixVideo.current?.play().catch(() => {})}
+                  onMouseLeave={() => netflixVideo.current?.pause()}
                 >
-                  <ReactPlayer
-                    url={NetflixVid}
-                    playing={netflixPlay}
+                  <video
+                    ref={netflixVideo}
+                    src={NetflixVid}
+                    aria-label="Netflix Clone demo"
+                    preload="auto"
                     loop
-                    style={{ overflow: "hidden" }}
-                    height={"90%"}
-                    width={"100%"}
-                    onReady={() => setloader({ ...loader, netflix: false })}
+                    playsInline
+                    style={{ width: "100%", height: "100%" }}
+                    onCanPlay={() => setloader((value) => ({ ...value, netflix: false }))}
+                    onError={() => setloader((value) => ({ ...value, netflix: false }))}
                   />
                   {/* <iframe
                       src="https://kuro0911.github.io/netflix-clone/"
@@ -303,7 +305,7 @@ export const CarouselModal = () => {
                       height={350}
                       width={650}
                     /> */}
-                </span>
+                </div>
               </div>
               <div className="right">
                 <div className="heading">

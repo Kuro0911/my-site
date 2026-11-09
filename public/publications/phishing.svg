@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <title>From labeled text to classifier evaluation</title>
+  <desc>Labeled text: Phishing and legitimate examples. Extract features: Clean, tokenize and vectorize the text. Test classifiers: Logistic regression, tree, k-NN and MLP</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#305839" opacity=".13"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="m1 1 7 4-7 4" fill="none" stroke="#305839" stroke-width="1.6"/>
+    </marker>
+  </defs>
+  <rect width="960" height="600" fill="#fbfaf8"/>
+  <rect width="960" height="600" fill="url(#grid)"/>
+  <path d="M0 0h960v10H0zM0 590h960v10H0z" fill="#305839"/>
+  <g>
+    <rect x="40" y="126" width="278" height="360" rx="16" fill="#305839" opacity=".16"/>
+    <rect x="34" y="118" width="278" height="360" rx="16" fill="#fff" stroke="#305839" stroke-width="2"/>
+    <rect x="57" y="145" width="232" height="122" rx="12" fill="#e6f1e4"/>
+    <g transform="translate(143 176)" fill="none" stroke="#305839" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="13" width="52" height="34" rx="5"/><path d="m5 17 25 19 25-19"/></g>
+    <text x="57" y="314" fill="#305839" font-family="monospace" font-size="16" font-weight="700">01 / INPUT</text>
+    <text x="57" y="360" fill="#211a26" font-family="sans-serif" font-size="25" font-weight="700">Labeled text</text>
+    <text x="57" y="404" fill="#504956" font-family="sans-serif" font-size="21">Phishing and</text>
+    <text x="57" y="434" fill="#504956" font-family="sans-serif" font-size="21">legitimate examples</text>
+  </g>
+  <path d="M316 298h19" stroke="#305839" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="347" y="126" width="278" height="360" rx="16" fill="#305839" opacity=".16"/>
+    <rect x="341" y="118" width="278" height="360" rx="16" fill="#fff" stroke="#305839" stroke-width="2"/>
+    <rect x="364" y="145" width="232" height="122" rx="12" fill="#e6f1e4"/>
+    <g transform="translate(450 176)" fill="none" stroke="#305839" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="6" width="50" height="48" rx="6"/><path d="M14 18h32M14 28h11m10 0h11M14 38h32m-32 8h23"/></g>
+    <text x="364" y="314" fill="#305839" font-family="monospace" font-size="16" font-weight="700">02 / PREPROCESSING</text>
+    <text x="364" y="360" fill="#211a26" font-family="sans-serif" font-size="25" font-weight="700">Extract features</text>
+    <text x="364" y="404" fill="#504956" font-family="sans-serif" font-size="21">Clean, tokenize and</text>
+    <text x="364" y="434" fill="#504956" font-family="sans-serif" font-size="21">vectorize the text</text>
+  </g>
+  <path d="M623 298h19" stroke="#305839" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="654" y="126" width="278" height="360" rx="16" fill="#305839" opacity=".16"/>
+    <rect x="648" y="118" width="278" height="360" rx="16" fill="#fff" stroke="#305839" stroke-width="2"/>
+    <rect x="671" y="145" width="232" height="122" rx="12" fill="#e6f1e4"/>
+    <g transform="translate(757 176)" fill="none" stroke="#305839" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 6v48h49M15 47V31h7v16m10 0V20h7v27m10 0V10h7v37"/></g>
+    <text x="671" y="314" fill="#305839" font-family="monospace" font-size="16" font-weight="700">03 / EVALUATION</text>
+    <text x="671" y="360" fill="#211a26" font-family="sans-serif" font-size="25" font-weight="700">Test classifiers</text>
+    <text x="671" y="404" fill="#504956" font-family="sans-serif" font-size="21">Logistic regression,</text>
+    <text x="671" y="434" fill="#504956" font-family="sans-serif" font-size="21">tree, k-NN and MLP</text>
+  </g>
+</svg>

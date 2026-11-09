@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <title>From labeled code to audit findings</title>
+  <desc>Annotated code: Contract snippets with security labels. Fine-tune: Adapt Mistral-7B for contract review. Audit findings: Flag potential flaws in submitted code</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#604092" opacity=".13"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="m1 1 7 4-7 4" fill="none" stroke="#604092" stroke-width="1.6"/>
+    </marker>
+  </defs>
+  <rect width="960" height="600" fill="#fbfaf8"/>
+  <rect width="960" height="600" fill="url(#grid)"/>
+  <path d="M0 0h960v10H0zM0 590h960v10H0z" fill="#604092"/>
+  <g>
+    <rect x="40" y="126" width="278" height="360" rx="16" fill="#604092" opacity=".16"/>
+    <rect x="34" y="118" width="278" height="360" rx="16" fill="#fff" stroke="#604092" stroke-width="2"/>
+    <rect x="57" y="145" width="232" height="122" rx="12" fill="#f0e9fa"/>
+    <g transform="translate(143 176)" fill="none" stroke="#604092" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3h29l13 13v41H10zM39 3v14h13M20 27h22M20 37h22M20 47h15"/></g>
+    <text x="57" y="314" fill="#604092" font-family="monospace" font-size="16" font-weight="700">01 / TRAINING INPUT</text>
+    <text x="57" y="360" fill="#211a26" font-family="sans-serif" font-size="25" font-weight="700">Annotated code</text>
+    <text x="57" y="404" fill="#504956" font-family="sans-serif" font-size="21">Contract snippets</text>
+    <text x="57" y="434" fill="#504956" font-family="sans-serif" font-size="21">with security labels</text>
+  </g>
+  <path d="M316 298h19" stroke="#604092" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="347" y="126" width="278" height="360" rx="16" fill="#604092" opacity=".16"/>
+    <rect x="341" y="118" width="278" height="360" rx="16" fill="#fff" stroke="#604092" stroke-width="2"/>
+    <rect x="364" y="145" width="232" height="122" rx="12" fill="#f0e9fa"/>
+    <g transform="translate(450 176)" fill="none" stroke="#604092" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="11" y="11" width="38" height="38" rx="6"/><rect x="22" y="22" width="16" height="16" rx="2"/><path d="M20 4v7m20-7v7M20 49v7m20-7v7M4 20h7m-7 20h7m38-20h7m-7 20h7"/></g>
+    <text x="364" y="314" fill="#604092" font-family="monospace" font-size="16" font-weight="700">02 / MODEL ADAPTATION</text>
+    <text x="364" y="360" fill="#211a26" font-family="sans-serif" font-size="25" font-weight="700">Fine-tune</text>
+    <text x="364" y="404" fill="#504956" font-family="sans-serif" font-size="21">Adapt Mistral-7B</text>
+    <text x="364" y="434" fill="#504956" font-family="sans-serif" font-size="21">for contract review</text>
+  </g>
+  <path d="M623 298h19" stroke="#604092" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="654" y="126" width="278" height="360" rx="16" fill="#604092" opacity=".16"/>
+    <rect x="648" y="118" width="278" height="360" rx="16" fill="#fff" stroke="#604092" stroke-width="2"/>
+    <rect x="671" y="145" width="232" height="122" rx="12" fill="#f0e9fa"/>
+    <g transform="translate(757 176)" fill="none" stroke="#604092" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M13 55V8m0 3c17-10 22 10 39 0v25c-17 10-22-10-39 0"/></g>
+    <text x="671" y="314" fill="#604092" font-family="monospace" font-size="16" font-weight="700">03 / SECURITY REVIEW</text>
+    <text x="671" y="360" fill="#211a26" font-family="sans-serif" font-size="25" font-weight="700">Audit findings</text>
+    <text x="671" y="404" fill="#504956" font-family="sans-serif" font-size="21">Flag potential flaws</text>
+    <text x="671" y="434" fill="#504956" font-family="sans-serif" font-size="21">in submitted code</text>
+  </g>
+</svg>
