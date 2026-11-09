@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <title>From scanned documents to lending analysis</title>
+  <desc>OCR and conversion preserve document structure. Protected retrieval provides authorized excerpts to the language model.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#67409a" opacity=".13"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="m1 1 7 4-7 4" fill="none" stroke="#67409a" stroke-width="1.6"/>
+    </marker>
+  </defs>
+  <rect width="960" height="600" fill="#fbfaf8"/>
+  <rect width="960" height="600" fill="url(#grid)"/>
+  <path d="M0 0h960v10H0zM0 590h960v10H0z" fill="#67409a"/>
+  <g fill="none" stroke="#67409a" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M453 164h54"/>
+    <path d="M715 268v59"/>
+    <path d="M508 434h-54"/>
+  </g>
+  <g>
+    <rect x="51" y="70" width="402" height="202" rx="15" fill="#67409a" opacity=".16"/>
+    <rect x="45" y="62" width="402" height="202" rx="15" fill="#fff" stroke="#67409a" stroke-width="2"/>
+    <rect x="68" y="82" width="82" height="78" rx="10" fill="#eee7f6"/>
+    <g transform="translate(79 91)" fill="none" stroke="#67409a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3h29l13 13v41H10zM39 3v14h13M20 27h22M20 37h22M20 47h15"/></g>
+    <text x="420" y="113" text-anchor="end" fill="#67409a" font-family="monospace" font-size="22" font-weight="700">01</text>
+    <text x="68" y="203" fill="#211a26" font-family="sans-serif" font-size="31" font-weight="700">Ingest documents</text>
+    <text x="68" y="236" fill="#504956" font-family="sans-serif" font-size="20">Scanned and digital records</text>
+  </g>
+  <g>
+    <rect x="519" y="70" width="402" height="202" rx="15" fill="#67409a" opacity=".16"/>
+    <rect x="513" y="62" width="402" height="202" rx="15" fill="#fff" stroke="#67409a" stroke-width="2"/>
+    <rect x="536" y="82" width="82" height="78" rx="10" fill="#eee7f6"/>
+    <g transform="translate(547 91)" fill="none" stroke="#67409a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6H7v13m33-13h13v13M7 41v13h13m33-13v13H40M2 30h56M20 18h20M20 42h20"/></g>
+    <text x="888" y="113" text-anchor="end" fill="#67409a" font-family="monospace" font-size="22" font-weight="700">02</text>
+    <text x="536" y="203" fill="#211a26" font-family="sans-serif" font-size="31" font-weight="700">Extract and convert</text>
+    <text x="536" y="236" fill="#504956" font-family="sans-serif" font-size="20">OCR, text and document structure</text>
+  </g>
+  <g>
+    <rect x="519" y="340" width="402" height="202" rx="15" fill="#67409a" opacity=".16"/>
+    <rect x="513" y="332" width="402" height="202" rx="15" fill="#fff" stroke="#67409a" stroke-width="2"/>
+    <rect x="536" y="352" width="82" height="78" rx="10" fill="#eee7f6"/>
+    <g transform="translate(547 361)" fill="none" stroke="#67409a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="25" width="44" height="30" rx="5"/><path d="M17 25V16a13 13 0 0 1 26 0v9m-13 11v8"/></g>
+    <text x="888" y="383" text-anchor="end" fill="#67409a" font-family="monospace" font-size="22" font-weight="700">03</text>
+    <text x="536" y="473" fill="#211a26" font-family="sans-serif" font-size="31" font-weight="700">Retrieve securely</text>
+    <text x="536" y="506" fill="#504956" font-family="sans-serif" font-size="20">Find relevant, authorized excerpts</text>
+  </g>
+  <g>
+    <rect x="51" y="340" width="402" height="202" rx="15" fill="#67409a" opacity=".16"/>
+    <rect x="45" y="332" width="402" height="202" rx="15" fill="#fff" stroke="#67409a" stroke-width="2"/>
+    <rect x="68" y="352" width="82" height="78" rx="10" fill="#eee7f6"/>
+    <g transform="translate(79 361)" fill="none" stroke="#67409a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8h46v33H28L15 52V41H7zM17 20h26m-26 9h18"/></g>
+    <text x="420" y="383" text-anchor="end" fill="#67409a" font-family="monospace" font-size="22" font-weight="700">04</text>
+    <text x="68" y="473" fill="#211a26" font-family="sans-serif" font-size="31" font-weight="700">Analyze with context</text>
+    <text x="68" y="506" fill="#504956" font-family="sans-serif" font-size="20">Ground analysis in the records</text>
+  </g>
+</svg>
